@@ -1,0 +1,23 @@
+폴더 -> git bash -> code.
+
+python -m venv myvenv  // 가상환경 생성
+
+source myvenv/Scripts/activate // 가상환경 구동
+
+deactivate//가상환경 종료
+
+pip install django // django 설치
+
+pip freeze //설치 확인
+
+django-admin startproject (이름) //프로젝트 생성
+
+cd (이름) // 해당 디렉토리로 이동
+
+ctrl+c // 서버 끄기
+
+manage.py 기능
+1.서버 실행 - python manage.py runserver
+2.application 만들기 - python manage.py startapp (이름)//작업할 어플리케이션
+3.datebase 초기화 및 변경사항 반영 - db.sqlite3 삭제
+4.관리자 계정 만들기 - python manage.py createsuperuser
